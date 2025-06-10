@@ -1,0 +1,35 @@
+# Jupyter Notebook specific
+.ipynb_checkpoints/
+*.ipynb-filter/
+
+# Environment variables or credentials
+.env
+.aws/
+credentials
+config
+*.key
+*.pem
+*.secret
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+.Python/
+build/
+dist/
+*.egg-info/
+
+# IDE specific
+.vscode/
+.idea/
+
+# Large data files
+*.csv
+*.txt
+*.parquet
+*.gz
+*.zip
+
+# Jupyter Notebook outputs that can be large
+*.ipynb_checkpoints/
